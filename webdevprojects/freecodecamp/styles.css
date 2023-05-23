@@ -87,7 +87,7 @@ textarea {
 
 button {
   background-color: #EAE3D1; /* button background*/
-  color: white; /* white text */
+  color: #484848; /* white text */
   padding: 15px 32px; /* some padding */
   width: 200px; /* set a width */
   border: none; /* remove border */
