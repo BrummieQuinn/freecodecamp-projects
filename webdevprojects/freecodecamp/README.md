@@ -1,3 +1,3 @@
-# <ins>My freecodecamp projects</ins>
+# <ins>freecodecamp projects</ins>
 
-My projects submitted to freecodecamp.org to gain certificates. Follow me on my Journey
+My projects submitted to freecodecamp.org to gain certificates.
