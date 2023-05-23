@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>FreeCodeCamp Survey Form</title>
+</head>
+<body>
+    <div>
+    <header>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <hr>
+
+    <form action="survey-form-page" method="post" id="survey-form">
+<!--position of the label e.g. above or below input, denotes whether before or after input in browser-->        
+        <fieldset>
+            <p>(All fields marked with * are required)</p>
+        <legend>Personal Details</legend>
+
+            <label for="name" id="name-label">Name: <span aria-label="required">*</span></label>
+                <input type="text" id="name" name="name" required  placeholder="Enter your name"><br>
+
+            <label for="email" id="email-label">Email: <span aria-label="required">*</span></label>
+                <input type="email" id="email" required placeholder="Enter your email"><br>
+    
+            <label for="number" id="number-label">Age: (optional)</label>
+                <input type="number" id="number" min="10" max="130" placeholder="Age">
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>About You</legend>
+
+            <p>Which option best describes your current role?</p>
+            
+            
+            <select id="dropdown" name="occupation">
+                <option disabled selected value aria-hidden="true"> Select current role</option> 
+                <option value="student"> Student</option>
+                <option value="ftjob"> Full Time job</option>
+                <option value="ptjob"> Part Time Job</option>
+                <option value="unemployed"> Unemployed</option>
+                <option value="preferno"> Prefer not to say</option>
+                <option value="other"> Other</option>
+                
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Recommendation</legend>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <!--Given same name="definitely" to ensure only one selection allowed-->
+            
+                <input type="radio"  name="definitely" value="definitely" checked>
+                <label for="definitely">Definitely</label>
+                <input type="radio"  name="definitely" value="maybe">
+                <label for="maybe">Maybe</label>
+                <input type="radio" name="definitely" value="not sure">
+                <label for="not-sure">Not Sure</label>
+           
+        
+        </fieldset>
+
+        <fieldset>
+            <p>What is your favourite feature of freeCodeCamp? (check all that apply)</p>
+            <label for="challenges">Challenges</label>
+            <input type="checkbox" name="challenges" id="challenges" value="challenges" checked>
+            <label for="projects">Projects</label>
+            <input type="checkbox" name="projects" id="projects" value="projects">
+            <label for="community">Community</label>
+            <input type="checkbox" name="community" id="communtiy" value="community">
+            <label for="opensource">Open Source</label>
+            <input type="checkbox" name="opensource" id="opensource" value="opensource">
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Any comments or suggestions</legend>
+
+        
+
+            <textarea 
+            cols="30" 
+            rows="8" 
+            id="message" 
+            name="message"
+            maxlength="2000">
+            </textarea>
+            <label for="message">(max) 2000</label>
+        
+
+        <br>
+
+            
+     
+
+        </fieldset>
+
+    </form>
+    <div class="button-container"><!--create a new div here -->
+    <!--button for submission--><!--can also use <input type="submit" value="submit">-->
+        <button type="submit" id="submit">Submit</button>
+    </div>
+    </div>
+</body>
+</html>
+<!--Passes all the tests on freecodecamp.  Need to style with CSS before submit-->

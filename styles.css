@@ -1,0 +1,103 @@
+/*box-sizing: border-box; the padding and border widths are included in the element’s total width and height
+  ::before and ::after - allow you to insert content before or after an element’s content. You can use them to 
+  add decorative elements such as icons or text. You can also use them to add structural elements such as additional 
+  borders or background colors
+  The ::before pseudo-element is used to insert content before the content of an element, while 
+  the ::after pseudo-element is used to insert content after the content of an element.*/
+*, ::before, ::after  {
+    box-sizing:border-box;
+    font-family: Verdana, Arial, helvetica, Geneva, sans-serif; /*list of fonts for fallbacks depending on browser*/
+}
+
+/* CSS code block for input, button, select and textarea elements */
+input, button, select, textarea {
+  margin: 0; /* no space around the elements */
+  font-family: inherit; /* same font as parent element */
+  font-size: inherit; /* same font size as parent element */
+  line-height: inherit; /* same line height as parent element */
+}
+
+/* Set background color of entire page */
+body {
+
+    background-image: linear-gradient(to bottom right, #E5A473, #DEB988);
+  
+}
+
+/* Style header */
+header {
+  background-image: linear-gradient(to bottom right,  #E5A473, #DEB988);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5); /* creates an outer shadow with no horizontal offset, 
+  a vertical offset of 5px, a blur radius of 10px, and a color of black with 50% opacity */
+  border-radius: 4px;
+}
+
+/* Style h1 element */
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+/* Style p element */
+p {
+  font-size: 18px;
+}
+
+/* Style form elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+textarea {
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+}
+
+.button-container {
+  text-align: center; /* center the content of the div */
+
+}
+
+button {
+  background-color: #EAE3D1; /* button background*/
+  color: #484848; /* white text */
+  padding: 15px 32px; /* some padding */
+  width: 200px; /* set a width */
+  border: none; /* remove border */
+  border-radius: 10px; /* rounded corners */
+  font-size: 16px; /* text size */
+  cursor: pointer; /* pointer cursor on hover */
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5); /* shadow effect */
+  transition: all 0.5s; /* smooth transition */
+}
+
+button:hover {
+  background-color: #BD4A38; /* change background on hover */
+}

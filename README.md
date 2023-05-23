@@ -1,4 +1,3 @@
-# <ins>My projects</ins>.
+# <ins>freecodecamp projects</ins>
 
-Projects documenting my journey through web development. 
-Feel free to follow me to watch me grow
+My projects submitted to freecodecamp.org to gain certificates.
