@@ -46,11 +46,11 @@ I would also like to add to its responsiveness, including the addition of media 
 
 ### <ins>To do…:</ins>
 
-* ~~Change colour of text on submit button~~
-* Change colour of text in header and p
-* Shorten the CSS I can by combining selectors or utilising IDs
+[x] Change colour of text on submit button
+[] Change colour of text in header and p
+[] Shorten the CSS I can by combining selectors or utilising IDs
 
 ### <ins>Possibilities…:</ins>
 
-* Add responsiveness as I learn more about it.
-
+[] Add responsiveness as I learn more about it.
+[] Learn more about styling forms
