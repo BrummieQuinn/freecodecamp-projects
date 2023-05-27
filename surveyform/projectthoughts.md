@@ -2,7 +2,7 @@
 
 This was my first attempt at building a project, period.
 
-## ***My thoughts.***
+## ***My thoughts.*** :thought_balloon:
 
 ### <ins>The structural layout…</ins>
 
@@ -34,7 +34,7 @@ On reflection, while fun, may not have been the best choice when I was focusing 
 
 ***
 
-### <ins>Final thoughts…</ins>
+### <ins>Final thoughts…</ins>:thought_balloon:
 
 I plan to keep going back to this web form to improve the CSS as I learn more.
 
