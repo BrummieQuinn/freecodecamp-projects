@@ -1,5 +1,5 @@
 # <ins>Build a Survey Form</ins>
-## Objective: Build an app that is functionally similar  to this example: <https://survey-form.freecodecamp.rocks>
+## Objective: Build an app that is functionally similar to [this example:]<https://survey-form.freecodecamp.rocks>
 
 ### User Stories:
 
