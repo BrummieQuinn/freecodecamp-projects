@@ -38,7 +38,7 @@ On reflection, while fun, may not have been the best choice when I was focusing 
 
 I plan to keep going back to this web form to improve the CSS as I learn more.
 
-For example,  I was given feedback on the button and the colour of the text in the header (accessibility) and I was also advised on how to neaten my html which I have already done and shorten my CSS so I will be making those further changes going forward at least. 
+For example,  I was given feedback from my mentor, on the button and the colour of the text in the header (accessibility) and I was also advised on how to neaten my html which I have already done and shorten my CSS so I will be making those further changes going forward at least. 
 
 I would also like to add to its responsiveness, including the addition of media queries.
 
@@ -46,14 +46,34 @@ I would also like to add to its responsiveness, including the addition of media 
 
 ### <ins>To do…:</ins>
 
-[x] Change colour of text on submit button
+[x] Change colour of text on submit button.
 
-[] Change colour of text in header and p
+[x] Change colour of text in header and p.
 
-[] Shorten the CSS I can by combining selectors or utilising IDs
+[x] Shorten the CSS I can by combining selectors or utilising IDs.
+
 
 ### <ins>Possibilities…:</ins>
 
 [] Add responsiveness as I learn more about it.
 
-[] Learn more about styling forms
+[] Add interactivity with javascript to make the form fully functional.
+
+[x] Learn more about styling forms.
+
+***
+
+#### Update: 03/06/2023
+
+Now going into my 4th week of web development bootcamp, I can see for myself the little mistakes I made here and there. 
+
+I've also learned that having someone look over your code is worth its weight in gold.  When pointed out the mistakes seem so obvious you want to kick yourself or atleast I do 😊.
+
+Web accessibility has become a passion of mine when it comes to web development, and this is what I was really aiming to fix on the form, I'm glad I was able to get a good Lighthouse report score for SEO, unfortunately it didn't recognise a certain oklab colour I used, so while CSS Overview in dev tools shows the issue fixed.
+An error prevented me from getting a score for the accessibility.
+
+After getting feedback from a friend who was originally in this field, I fixed the issues with the code readability.
+He was also able to explain the quirk of the ```<textarea>``` I missed, where the closing tag is located in the html matters,
+the white space between will be added to the ```<textarea>```.
+
+I'm beyond happy to have finally taken the step to build something from scratch, show it to the world and to just keep applying what I learn to improve upon it 😊.
