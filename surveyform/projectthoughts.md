@@ -52,12 +52,11 @@ I would also like to add to its responsiveness, including the addition of media 
 
 [x] Shorten the CSS I can by combining selectors or utilising IDs.
 
-
-### <ins>Possibilities…:</ins>
-
 [] Add responsiveness as I learn more about it.
 
 [] Add interactivity with javascript to make the form fully functional.
+
+[] Add font using ```@font-face```.
 
 [x] Learn more about styling forms.
 
