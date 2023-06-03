@@ -100,7 +100,7 @@ textarea {
 
 button {
   background-color: oklab(0.92 0 0.03); /* button background*/
-  color: oklab(0.4 0 0); /* white text */
+  color: oklab(55.6%, 0%, 4.25%); /* white text */
   padding: 15px 32px; /* some padding */
   width: 200px; /* set a width */
   border: none; /* remove border */
