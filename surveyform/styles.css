@@ -8,7 +8,7 @@
     box-sizing: border-box;
     
     font-family: 'M PLUS 1 Code', sans-serif;
-    
+    font-weight: 600;
     font-family: 'Martian Mono', monospace; /*list of fonts for fallbacks depending on browser*/
 }
 
@@ -24,10 +24,8 @@ input, button, select, textarea {
 /* Set background color of entire page */
 body {
   
-width: 150vh;
-  
-margin: 12rem;
-  
+width: 150vh;  
+margin: 12rem;  
 margin-top: 30px;
   
 background-image: linear-gradient(to bottom right, oklab(0.77 0.05 0.08),  oklab(0.81 0.02 0.07));
@@ -37,7 +35,9 @@ background-image: linear-gradient(to bottom right, oklab(0.77 0.05 0.08),  oklab
 header {
   background-image: linear-gradient(to bottom right, oklab(0.77 0.05 0.08), oklab(0.81 0.02 0.07));
   color: oklab(0.56 0.13 0.08);
+ 
   padding: 20px;
+ 
   box-shadow: 0 5px 10px oklab(0 0 0 / 0.5); /* creates an outer shadow with no horizontal offset, 
   a vertical offset of 5px, a blur radius of 10px, and a color of black with 50% opacity */
   border-radius: 10px;
@@ -46,24 +46,21 @@ header {
 /* Style h1 element */
 h1 {
   font-size: 36px;
+  
   margin-top: 0;
 }
 
 /* Style p element */
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
-legend {
+fieldset {
 
-  font-weight: bold;
+  border-radius: 10px;
 }
 
 /* Style form elements */
-label {
-  display: block;
-  margin-bottom: 10px;
-}
 
 input[type="text"],
 input[type="number"],
@@ -79,6 +76,7 @@ select {
 input[type="submit"] {
   background-color: oklab(0.35 0.01 -0.02);
   color: oklab(1 0 0);
+ 
   padding: 12px 20px;
   border-radius: 4px;
   border: none;
@@ -90,8 +88,9 @@ textarea {
   padding:15px;
   border-radius:15px;
   border:0;
-  box-shadow: 4px 4px 10px oklab(0 0 0 / 0.06);
   height:150px;
+
+  box-shadow: 4px 4px 10px oklab(0 0 0 / 0.06);
 }
 
 .button-container {
@@ -116,8 +115,4 @@ button:hover {
   background-color: oklab(0.56 0.13 0.08); /* change background on hover */
 }
 
-fieldset {
 
-  border-radius: 10px;
-
-}
